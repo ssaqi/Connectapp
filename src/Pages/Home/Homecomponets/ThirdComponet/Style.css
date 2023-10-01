@@ -1,0 +1,30 @@
+.card2{
+      
+    height: 700px;
+    background-image: url('../../../../Componets/Assests/Thied.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius:0px;
+    overflow-x: hidden;
+}
+
+.card4{
+     
+     height: 200px;
+     background-color: white;
+     overflow-y: hidden;
+}
+
+
+.ThirdCon{
+
+      margin-top: 140px;
+}
+
+
+.icnImg{
+
+      width: 200px;
+      height: 200px;
+}

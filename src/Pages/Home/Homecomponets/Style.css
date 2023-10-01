@@ -1,0 +1,77 @@
+.card{
+      
+      height: 700px;
+      background-image: url('../../../Componets/Assests/first.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: none;
+      border-radius:0px;
+      overflow-x: hidden;
+}
+
+
+.big{
+
+     font-size: 55px;
+     font-weight: 700;
+}
+
+.side{
+
+     margin-right: 80px;
+}
+
+.side2{
+    font-size: 50px;
+    color: blue;
+    margin-right: 110px;
+    font-weight: 700;
+}
+
+.parg{
+
+      margin-right: 90px;
+      font-weight: 700;
+      font-size: 18px;
+}
+.parg1{
+
+    margin-left:45px;
+}
+
+.btnGrop{
+
+      margin-right: 180px;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .big{
+
+          font-size: 35px;
+    }
+    .side{
+
+          margin-right: 10px;
+          font-size: 35px;
+    }
+    .side2{
+
+          margin-right: 10px;
+          font-size: 40px;
+    }
+
+    .parg{
+
+         margin-right: 10px;
+         font-size: 16px;
+    }
+    .parg1{
+
+         margin-left: 0px;
+    }
+    .btnGrop{
+
+          margin-right: 0px;
+    }
+  }

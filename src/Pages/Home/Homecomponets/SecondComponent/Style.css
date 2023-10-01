@@ -1,0 +1,52 @@
+.card1{
+      
+    height: 700px;
+    background-image: url('../../../../Componets/Assests/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius:0px;
+    overflow-x: hidden;
+}
+
+.secCon{
+
+      margin-top: 20px;
+      overflow: hidden;
+}
+
+
+
+.img{
+
+      width: 499px;
+      height: 480px;
+      overflow: hidden;
+
+}
+
+.icon{
+
+      width: 26px;
+      height: 26px;
+      color: #e68989
+}
+
+
+@media only screen and (max-width: 600px) {
+    .secCon{
+
+          overflow-y: hidden;
+         
+    }
+    .img{
+
+          width: 350px;
+          height: 350px;
+
+    }
+    .icon{
+
+          display:none;
+    }
+  }
